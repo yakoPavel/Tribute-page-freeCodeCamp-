@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+
+.main-container {
+  width: 98%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #d4d4d4; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.text {
+  font-size: 1.4rem;
+  font-weight: 300; }
+
+.header-big {
+  font-size: 3.5rem;
+  font-weight: 300; }
+
+.header-small {
+  font-size: 2rem;
+  font-weight: 300; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 2rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 3rem; }
+
+.u-margin-bottom-huge {
+  margin-bottom: 5rem; }
+
+.u-margin-top-small {
+  margin-top: 1rem; }
+
+.u-margin-top-medium {
+  margin-top: 2rem; }
+
+.u-margin-top-big {
+  margin-top: 3rem; }
+
+.u-margin-top-huge {
+  margin-top: 5rem; }
+
+.header {
+  text-align: center;
+  padding: 3.5rem 3.5rem 1.5rem; }
+
+.section-a {
+  padding: 2rem 0;
+  background-color: #eee;
+  width: 96%;
+  margin: 0 auto;
+  text-align: center; }
+  .section-a__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .section-a__photo {
+    max-width: 55%;
+    margin-bottom: 1rem; }
+
+.section-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0; }
+  .section-b__main-content {
+    width: 40%; }
+    @media only screen and (max-width: 43.75em) {
+      .section-b__main-content {
+        width: 50%; } }
+    @media only screen and (max-width: 25em) {
+      .section-b__main-content {
+        width: 60%; } }
+    @media only screen and (max-width: 18.75em) {
+      .section-b__main-content {
+        width: 75%; } }
+    .section-b__main-content h2 {
+      text-align: center; }
+  .section-b__timeline-item {
+    margin: 1.5rem;
+    line-height: 1.6; }
+  .section-b__item-year {
+    font-weight: bold; }
+  .section-b__quote {
+    margin-top: 3.5rem;
+    font-style: italic; }
+    .section-b__quote-caption {
+      margin-top: 1.5rem; }
+  .section-b__read-more {
+    padding: 0 2rem;
+    margin-top: 4rem;
+    text-align: center; }
+  .section-b__link {
+    color: #5b7090; }

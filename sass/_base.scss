@@ -1,0 +1,32 @@
+$primary-color: #d4d4d4;
+$secondary-color: #eee;
+
+$bp-large: 56.25em;    // 900px;
+$bp-medium: 43.75em;   // 700px;
+$bp-small: 25em;       // 400px;
+$bp-smallest: 18.75em; // 300px;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+.main-container {
+  width: 98%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: $primary-color;
+}
